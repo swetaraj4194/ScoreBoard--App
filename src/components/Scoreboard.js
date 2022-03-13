@@ -2,7 +2,6 @@ import { useState } from "react";
 import Player from "./Players";
 import AddPlayerForm from "./AddPlayerForm";
 
-
 export default function Scoreboard() {
   const [playerDetail, setPlayerDetails] = useState([
     { id: 1, name: "Violeta", score: 11 },
